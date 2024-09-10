@@ -39,7 +39,7 @@
 - **Secrets:**	Manages sensitive information, such as passwords, OAuth tokens, and ssh keys.
 - **Environment Variables:**	Used within Kubernetes for service discovery.
 
-### Kubernetes Automation and Autoscaling
+## Kubernetes Automation and Autoscaling
 
 - **Cluster Autoscaler:** Automatically adjusts the size of the cluster, scaling it up or down as necessary.
 - **Vertical Pod Autoscaler:** Automatically adjusts the amount of CPU and memory requested by containers in a Pod.

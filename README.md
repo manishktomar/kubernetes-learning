@@ -25,11 +25,13 @@
 
 ### 2. Services & Networking:
 
-- **Services:** 	A way to expose an application running in Pods as a network service.
-- **Ingress:** 	Manages external access to services within a cluster.
-- **Network Policies:** 	Define how Pods communicate with each other.
-- **Service Discovery:** 	Mechanism to connect to services dynamically based on a logical name.
-- **Load Balancer:** 	A service that distributes network traffic across multiple Pods.
+| Command | Description |
+| --- | --- |
+| Services:|  A way to expose an application running in Pods as a network service.| 
+| Ingress:|  Manages external access to services within a cluster.| 
+| Network Policies:|  Define how Pods communicate with each other.| 
+| Service Discovery:|  Mechanism to connect to services dynamically based on a logical name.| 
+| Load Balancer:|  A service that distributes network traffic across multiple Pods.| 
 
 ### 3. Kubernetes Storage:
 

@@ -9,7 +9,6 @@
 4. Manifest Example
 
 
-
 ### 1. Workloads & Controllers
 
 | Command | Description |
@@ -35,17 +34,23 @@
 
 ### 3. Kubernetes Storage:
 
-- **Persistent Volumes (PVs):**	Offers storage to the cluster that is independent of Pod life cycles.
-- **Storage Classes:**	Allow administrators to describe the "classes" of storage offered.
+| Command | Description |
+| --- | --- |
+| Persistent Volumes (PVs):|  Offers storage to the cluster that is independent of Pod life cycles.| 
+| Storage Classes:|  Allow administrators to describe the "classes" of storage offered.| 
 
 ### 4. Configuration & Secrets: 
 
-- **ConfigMaps:**	Manage configuration data separately from container images.
-- **Secrets:**	Manages sensitive information, such as passwords, OAuth tokens, and ssh keys.
-- **Environment Variables:**	Used within Kubernetes for service discovery.
+| Command | Description |
+| --- | --- |
+| ConfigMaps:|  Manage configuration data separately from container images.| 
+| Secrets:|  Manages sensitive information, such as passwords, OAuth tokens, and ssh keys.| 
+| Environment Variables:|  Used within Kubernetes for service discovery.| 
 
 ### 5. Kubernetes Automation and Autoscaling
 
-- **Cluster Autoscaler:** Automatically adjusts the size of the cluster, scaling it up or down as necessary.
-- **Vertical Pod Autoscaler:** Automatically adjusts the amount of CPU and memory requested by containers in a Pod.
-- **Horizontal Pod Autoscaler (HPA):** Automatically scales the number of Pods in a deployment or replica set based on observed CPU or memory utilization.
+| Command | Description |
+| --- | --- |
+| Cluster Autoscaler:|  Automatically adjusts the size of the cluster, scaling it up or down as necessary.| 
+| Vertical Pod Autoscaler:|  Automatically adjusts the amount of CPU and memory requested by containers in a Pod.| 
+| Horizontal Pod Autoscaler (HPA):|  Automatically scales the number of Pods in a deployment or replica set based on observed CPU or memory utilization.| 

@@ -1,5 +1,6 @@
 # ![Kubernetes](https://skillicons.dev/icons?i=kubernetes) Kubernetes Learing
-![k8](https://github.com/user-attachments/assets/531203b0-9145-4079-b4b8-20cdc71fd92f)
+![image](https://github.com/user-attachments/assets/c387068f-5bbf-4e1a-b696-484d3db4ee2c)
+
 
 1. Kubernetes Installation  [Document](./Deployment.md)
 2. Service 

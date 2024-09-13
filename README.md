@@ -14,25 +14,14 @@
 
 | Command | Description |
 | --- | --- |
-| git status | List all new or modified files |
-| git diff | Show file differences that haven't been staged |
-| Deployments:  | Manages a replicated application. | 
-| Replica Sets:  | Ensures that a specified number of replicas of a Pod are running at all times. | 
-| Replica Controller: |  | 
+| Deployments:  | Deployments are used to manage stateless applications and ensure that the desired number of pod replicas are running. They provide rolling updates and rollback capabilities. | 
+| Replica Sets:  | Ensures a specified number of pod replicas are running at any given time. Typically managed by a Deployment. | 
+| Replica Controller: | Similar to Replica Sets but older and less preferred. Ensures a specified number of pod replicas are running. | 
 | Stateful Sets: |  Manages the deployment and scaling of a set of Pods, providing guarantees about ordering and uniqueness. | 
 | Daemon Sets: |  Ensures that all (or some) nodes run a copy of a Pod. | 
 | Jobs: |  Creates one or more Pods and ensures that a specified number of them successfully terminate. | 
 | CronJobs: |  Manages time-based Jobs, such as running a Job at a specific time or periodic intervals. | 
 | Horizontal Pod Autoscaler: |  Automatically scales the number of Pods in a deployment, replica set, or replication controller based on observed CPU or memory usage. | 
-
-- **Deployments:** 	Manages a replicated application.
-- **Replica Sets:** 	Ensures that a specified number of replicas of a Pod are running at all times.
-- **Replica Controller:** 	
-- **Stateful Sets:** 	Manages the deployment and scaling of a set of Pods, providing guarantees about ordering and uniqueness.
-- **Daemon Sets:** 	Ensures that all (or some) nodes run a copy of a Pod.
-- **Jobs:** 	Creates one or more Pods and ensures that a specified number of them successfully terminate.
-- **CronJobs:** 	Manages time-based Jobs, such as running a Job at a specific time or periodic intervals.
-- **Horizontal Pod Autoscaler:**	Automatically scales the number of Pods in a deployment, replica set, or replication controller based on observed CPU or memory usage.
 
 ### 2. Services & Networking:
 

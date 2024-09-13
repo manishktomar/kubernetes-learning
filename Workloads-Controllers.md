@@ -1,4 +1,10 @@
 # Workloads & Controllers
+1. Deployments: 
+2. Replica Sets: 
+3. Daemon Sets: 
+4. Jobs: 
+5. CronJobs: 
+6. Horizontal Pod Autoscaler:
 
 ## Deployments: 
 Purpose: Deployments are used to manage stateless applications and ensure that the desired number of pod replicas are running. They provide rolling updates and rollback capabilities.

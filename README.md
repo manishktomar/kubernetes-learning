@@ -3,11 +3,11 @@
 
 
 1. Kubernetes Installation  [Document](./Deployment.md)
-2. Service 
-3. Deployment 
-4. Replica Set and Replica Controller
-5. Namespace
-4. Manifest Example
+2. Workloads & Controllers with Manifest [Document](./Workloads-Controllers.md)
+3. Services & Networking with Manifest [Document](./Services-Networking.md)
+4. Storage with Manifest [Document](./Storage.md)
+5. Configuration & Secrets with Manifest [Document](./Configuration-Secrets.md)
+4. Automation and Autoscaling with Manifest [Document](./Automation-Autoscaling.md)
 
 
 ### 1. Workloads & Controllers

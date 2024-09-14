@@ -1,10 +1,10 @@
 # Kubernetes Services Networking
 | Concept | Description |
 | --- | --- |
-| [Services](#Services) |	Expose a set of pods and make them discoverable within the cluster or to external clients. |
-| [Ingress](#Ingress) |	Manage external access to services, typically HTTP(S) traffic, with routing, SSL, and load balancing. |
-| [Network Policies](#network-policies) | Define rules for allowing/restricting network communication between pods at the IP/port level. |
-| [Service Discovery](#Service-Discovery) |Automatic mechanism to discover services via DNS or environment variables. |
+| [Services](#1-Services) |	Expose a set of pods and make them discoverable within the cluster or to external clients. |
+| [Ingress](#2-Ingress) |	Manage external access to services, typically HTTP(S) traffic, with routing, SSL, and load balancing. |
+| [Network Policies](#3-network-policies) | Define rules for allowing/restricting network communication between pods at the IP/port level. |
+| [Service Discovery](#4-Service-Discovery) |Automatic mechanism to discover services via DNS or environment variables. |
 | [Load Balancer](#5-load-balancer) |Provides an external load balancer to route traffic to services from outside the cluster. |
 
 ## 1. Services: 

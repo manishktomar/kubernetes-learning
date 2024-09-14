@@ -5,7 +5,7 @@
 | [Ingress](#Ingress) |	Manage external access to services, typically HTTP(S) traffic, with routing, SSL, and load balancing. |
 | [Network Policies](#network-policies) | Define rules for allowing/restricting network communication between pods at the IP/port level. |
 | [Service Discovery](#Service-Discovery) |Automatic mechanism to discover services via DNS or environment variables. |
-| [Load Balancer](#load-balancer) |Provides an external load balancer to route traffic to services from outside the cluster. |
+| [Load Balancer](#5-load-balancer) |Provides an external load balancer to route traffic to services from outside the cluster. |
 
 ## 1. Services: 
 A Service in Kubernetes is an abstraction that defines a logical set of pods and a policy by which to access them. Services enable communication between different parts of your application and between your application and external users.
